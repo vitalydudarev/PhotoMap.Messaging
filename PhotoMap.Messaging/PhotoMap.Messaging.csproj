@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <Version>1.0.0</Version>
         <Authors>Vitaly Dudarau</Authors>
         <RepositoryUrl>https://github.com/vitalydudarev/PhotoMap.Messaging</RepositoryUrl>
+        <LangVersion>latestmajor</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.14" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-      <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+      <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
     </ItemGroup>
 
 </Project>
